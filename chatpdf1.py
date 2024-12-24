@@ -11,8 +11,8 @@ from langchain.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
-api_key = "AIzaSyBLVfncAbmGEJvyzfnGzUXpAZrsdT9NBsw"
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\kolla\Desktop\Jupyter\task\lucky-apparatus-445708-e5-534cb5d7bf09.json"
+api_key = "your_api_key"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"the_path_to_json_file"
 
 # Check if the environment variable is set correctly
 credentials_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
